@@ -82,7 +82,7 @@ int main(argc, argv&)
 // for now, hard coding example sym_ops
 
     Symmetry_Operation sym_op;
-	std::string op_type = sym_op.check_op_type();
+	std::string op_type = check_op_type(sym_op);
 	std::cout<<"This is a "<<op_type<<std::endl;
 
 	}
